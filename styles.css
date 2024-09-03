@@ -15,6 +15,33 @@ header {
     text-weight: bold;
     padding: 100px 20px;
 }
+.nav-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    background: inherit;
+}
+
+.btn {
+    padding: 12px 16px;
+    font-size: 30px;
+    width: 30px;
+    color: inherit;
+    aspect-ratio: 1 / 1;
+    overflow: hidden;
+    border-radius: 100%;
+    display: grid;
+    place-items: center;
+    text-decoration:none;   
+    text-align: center;
+}
+
+.btn: hover{
+
+
+}
+
 
 .header-content h1 {
     font-size: 3em;
@@ -102,4 +129,85 @@ footer {
 
 footer p {
     margin: 0;
+}
+
+/* Contact Me Icon Button */
+#contactBtn {
+    padding: 15px;
+    background-color: inherit;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 100%;
+    font-size: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#contactBtn i {
+    margin: 0;
+}
+
+/* Modal Form Styling */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    max-width: 350px;
+    margin: auto;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+}
+
+label {
+    margin-top: 10px;
+    width: 100%;
+    font-weight: bold;
+    text-align: left;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: none;
+}
+
+button[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
 }
